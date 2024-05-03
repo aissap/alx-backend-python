@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Function that zooms in."""
 from typing import Tuple, List
 
 
