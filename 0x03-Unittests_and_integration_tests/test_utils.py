@@ -30,6 +30,7 @@ class TestAccessNestedMap(unittest.TestCase):
             access_nested_map(nested_map, path)
         self.assertEqual(str(cm.exception), repr(path[-1]))
 
+
 class TestGetJson(unittest.TestCase):
     """Testing get_json function"""
     @parameterized.expand([
